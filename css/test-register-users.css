@@ -1,0 +1,55 @@
+form.test-registration-form,
+.authorization-user-login-front {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+form.test-registration-form input[type="email"],
+form.test-registration-form input[type="text"],
+form.test-registration-form input[type="password"],
+.authorization-user-login-front input[type="email"],
+.authorization-user-login-front input[type="text"],
+.authorization-user-login-front input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form.test-registration-form .login-remember,
+.authorization-user-login-front .login-remember {
+  margin-bottom: 10px;
+}
+
+form.test-registration-form input[type="submit"],
+.authorization-user-login-front input[type="submit"] {
+  background: grey;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 7px 30px 5px 30px;
+  font-size: 14px;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+form.test-registration-form input[type="submit"]:hover,
+.authorization-user-login-front input[type="submit"]:hover {
+  background: #fff;
+}
+
+.error {
+  display: none;
+  color: red;
+}
+
+.success {
+  display: none;
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=test-register-users.css.map */

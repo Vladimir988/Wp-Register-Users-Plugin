@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "test-register-users.css",
+	"sources": [
+		"../scss/test-register-users.scss"
+	],
+	"sourcesContent": [
+		"form.test-registration-form,\r\n.authorization-user-login-front {\r\n\tposition: relative;\r\n  width: 100%;\r\n  max-width: 400px;\r\n\r\n  input[type=\"email\"],\r\n  input[type=\"text\"],\r\n  input[type=\"password\"] {\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  .login-remember {\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  input[type=\"submit\"] {\r\n    background: grey;\r\n    color: #000;\r\n    border: 1px solid #000;\r\n    border-radius: 4px;\r\n    text-transform: uppercase;\r\n    padding: 7px 30px 5px 30px;\r\n    font-size: 14px;\r\n    line-height: 1;\r\n    transition: 0.3s;\r\n\r\n    &:hover {\r\n      background: #fff;\r\n    }\r\n  }\r\n}\r\n.error {\r\n\tdisplay: none;\r\n\tcolor: red;\r\n}\r\n.success {\r\n\tdisplay: none;\r\n\tcolor: green;\r\n}\r\n.hidden {\r\n\tdisplay: none;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAA,uBAAuB;AAC3B,+BAA+B,CAAC;EAC/B,QAAQ,EAAE,QAAQ;EACjB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;CA4BjB;;AAhCD,AAME,IANE,AAAA,uBAAuB,CAMzB,KAAK,CAAA,AAAA,IAAC,CAAK,OAAO,AAAZ;AANR,IAAI,AAAA,uBAAuB,CAOzB,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX;AAPR,IAAI,AAAA,uBAAuB,CAQzB,KAAK,CAAA,AAAA,IAAC,CAAK,UAAU,AAAf;AAPR,+BAA+B,CAK7B,KAAK,CAAA,AAAA,IAAC,CAAK,OAAO,AAAZ;AALR,+BAA+B,CAM7B,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX;AANR,+BAA+B,CAO7B,KAAK,CAAA,AAAA,IAAC,CAAK,UAAU,AAAf,EAAiB;EACrB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI;CACpB;;AAXH,AAaE,IAbE,AAAA,uBAAuB,CAazB,eAAe;AAZjB,+BAA+B,CAY7B,eAAe,CAAC;EACd,aAAa,EAAE,IAAI;CACpB;;AAfH,AAiBE,IAjBE,AAAA,uBAAuB,CAiBzB,KAAK,CAAA,AAAA,IAAC,CAAK,QAAQ,AAAb;AAhBR,+BAA+B,CAgB7B,KAAK,CAAA,AAAA,IAAC,CAAK,QAAQ,AAAb,EAAe;EACnB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;EACtB,aAAa,EAAE,GAAG;EAClB,cAAc,EAAE,SAAS;EACzB,OAAO,EAAE,iBAAiB;EAC1B,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,CAAC;EACd,UAAU,EAAE,IAAI;CAKjB;;AA/BH,AA4BI,IA5BA,AAAA,uBAAuB,CAiBzB,KAAK,CAAA,AAAA,IAAC,CAAK,QAAQ,AAAb,CAWH,MAAM;AA3BX,+BAA+B,CAgB7B,KAAK,CAAA,AAAA,IAAC,CAAK,QAAQ,AAAb,CAWH,MAAM,CAAC;EACN,UAAU,EAAE,IAAI;CACjB;;AAGL,AAAA,MAAM,CAAC;EACN,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,GAAG;CACV;;AACD,AAAA,QAAQ,CAAC;EACR,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;CACZ;;AACD,AAAA,OAAO,CAAC;EACP,OAAO,EAAE,IAAI;CACb"
+}
